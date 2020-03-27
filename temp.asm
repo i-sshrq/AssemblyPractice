@@ -6,14 +6,7 @@ org 100h
 .code
 
  main proc
-    mov ah, 01h
-    int 21h
-    sub al, '0'
-    mov bl, al
-    
-    ;no. of rows = n  (stored in bl)
-    ;no. of spaces = n - rowNumber
-    ;no. of stars = rowNumber
+   
     
 
             

@@ -29,7 +29,11 @@ org 100h
             loop stars        
         mov cl, bl
         call newline
-        loop row   
+        loop row
+    exit:
+ 	mov ah, 4ch
+    	int 21h
+   
  endp
  
  newline proc
