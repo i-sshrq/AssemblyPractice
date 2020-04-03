@@ -39,22 +39,6 @@
         int 21h
         mov dx, offset str1
         int 21h
-        
-       
-    
-
-            
-    
-    
-    
-    
-    
-        
-        
- 
-    
-    
-    
     
  exit:
     mov ah, 4ch
